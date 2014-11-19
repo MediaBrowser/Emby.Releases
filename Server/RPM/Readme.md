@@ -3,9 +3,10 @@ you can still run the start.sh script to run the server from a terminal.
 
 For CentOS 7 you need to enable/install the epel repository:
 
-        yum update MediaBrowserServer-repositories
+        yum install epel-release
 
 For Fedora 19+:
+
     *If you have the rpmfusion repositories then install ffmpeg from there and the server wont download it when it first boot up. If not then the first boot may take some time, you can also create/modify the file at /etc/opt/MediaBrowser/MediaBrowserServer/MediaBrowserServer.cfg and add you path for installffmpeg and ffprobe in the following format:
     FFmpeg="/bin/ffmpeg"
     FFprobe="/bin/ffprobe"
@@ -35,11 +36,12 @@ For Fedora 19+:
         yum-config-manager --enable MediaBrowserServer-Beta
          
     
-    
+System Tray Icon:
+
      To have a tray-icon just in the windows version install MediaBrowserServer-sysTray
         yum install MediaBrowserServer-sysTray
      
-     at the end reload gnome by pressing [alt]+[f2] typing [r] in the box and pressing [enter].
+     after it is installed reload gnome by pressing [alt]+[f2] typing [r] in the box and pressing [enter].
      Start the tray icon by clicking on the Media Browser Server application.
      It will start the server service when you click on the application and close it if you click exit on the tray icon. 
      
