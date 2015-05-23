@@ -1,2 +1,2 @@
-MediaBrowser.Releases
+Emby.Releases
 =====================
