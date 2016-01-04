@@ -18,3 +18,6 @@ $RECYCLE.BIN/
 
 # Mac crap
 .DS_Store
+
+# Click-Once directory
+publish/
