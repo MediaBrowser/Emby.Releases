@@ -46,8 +46,75 @@ FONT.key {font-weight: bold; color: darkgreen}
 
 </STYLE>
 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+runtimeVersion = "4.5.0";
+checkClient = false;
+directLink = "Emby.Theater.Installer.application";
+
+
+function Initialize()
+{
+  if (HasRuntimeVersion(runtimeVersion, false) || (checkClient && HasRuntimeVersion(runtimeVersion, checkClient)))
+  {
+    InstallButton.href = directLink;
+    BootstrapperSection.style.display = "none";
+  }
+}
+function HasRuntimeVersion(v, c)
+{
+  var va = GetVersion(v);
+  var i;
+  var a = navigator.userAgent.match(/\.NET CLR [0-9.]+/g);
+  if(va[0]==4)
+    a = navigator.userAgent.match(/\.NET[0-9.]+E/g);
+  if (c)
+  {
+    a = navigator.userAgent.match(/\.NET Client [0-9.]+/g);
+    if (va[0]==4)
+       a = navigator.userAgent.match(/\.NET[0-9.]+C/g);
+  }
+  if (a != null)
+    for (i = 0; i < a.length; ++i)
+      if (CompareVersions(va, GetVersion(a[i])) <= 0)
+                                return true;
+  return false;
+}
+function GetVersion(v)
+{
+  var a = v.match(/([0-9]+)\.([0-9]+)\.([0-9]+)/i);
+  if(a==null)
+     a = v.match(/([0-9]+)\.([0-9]+)/i);
+  return a.slice(1);
+}
+function CompareVersions(v1, v2)
+{
+   if(v1.length>v2.length)
+   {
+      v2[v2.length]=0;
+   }  
+   else if(v1.length<v2.length)
+   {
+      v1[v1.length]=0;
+   }
+
+  for (i = 0; i < v1.length; ++i)
+  {
+    var n1 = new Number(v1[i]);
+    var n2 = new Number(v2[i]);
+    if (n1 < n2)
+      return -1;
+    if (n1 > n2)
+      return 1;
+  }
+  return 0;
+}
+
+-->
+</SCRIPT>
+
 </HEAD>
-  <BODY>
+  <BODY ONLOAD="Initialize()">
     <TABLE WIDTH="100%" CELLPADDING="0" CELLSPACING="2" BORDER="0">
 
 <!-- Begin Banner -->
@@ -59,14 +126,13 @@ FONT.key {font-weight: bold; color: darkgreen}
 <TR><TD ALIGN="LEFT"><TABLE CELLPADDING="2" CELLSPACING="0" BORDER="0" WIDTH="540"><TR><TD WIDTH="496">
 
 <!-- Begin AppInfo -->
-<TABLE><TR><TD COLSPAN="3">&nbsp;</TD></TR><TR><TD><B>Name:</B></TD><TD WIDTH="5"><SPACER TYPE="block" WIDTH="10" /></TD><TD>Emby Theater Installer</TD></TR><TR><TD COLSPAN="3">&nbsp;</TD></TR><TR><TD><B>Version:</B></TD><TD WIDTH="5"><SPACER TYPE="block" WIDTH="10" /></TD><TD>3.0.1.21</TD></TR><TR><TD COLSPAN="3">&nbsp;</TD></TR><TR><TD><B>Publisher:</B></TD><TD WIDTH="5"><SPACER TYPE="block" WIDTH="10" /></TD><TD>Emby Media</TD></TR><tr><td colspan="3">&nbsp;</td></tr></TABLE>
+<TABLE><TR><TD COLSPAN="3">&nbsp;</TD></TR><TR><TD><B>Name:</B></TD><TD WIDTH="5"><SPACER TYPE="block" WIDTH="10" /></TD><TD>Emby Theater Installer</TD></TR><TR><TD COLSPAN="3">&nbsp;</TD></TR><TR><TD><B>Version:</B></TD><TD WIDTH="5"><SPACER TYPE="block" WIDTH="10" /></TD><TD>3.0.1.22</TD></TR><TR><TD COLSPAN="3">&nbsp;</TD></TR><TR><TD><B>Publisher:</B></TD><TD WIDTH="5"><SPACER TYPE="block" WIDTH="10" /></TD><TD>Emby Media</TD></TR><tr><td colspan="3">&nbsp;</td></tr></TABLE>
 <!-- End AppInfo -->
 
 
 <!-- Begin Prerequisites -->
 <TABLE ID="BootstrapperSection" BORDER="0"><TR><TD COLSPAN="2">The following prerequisites are required:</TD></TR><TR><TD WIDTH="10">&nbsp;</TD><TD><UL>
-<LI>Microsoft .NET Framework 4.5 (x86 and x64)</LI>
-<LI>Visual C++ 2010 Runtime Libraries (x86)</LI>
+<LI>Microsoft .NET Framework 4.6 (x86 and x64)</LI>
 </UL></TD></TR><TR><TD COLSPAN="2">
 If these components are already installed, you can <SPAN CLASS="JustThisApp"><A HREF="Emby.Theater.Installer.application">launch</A></SPAN> the application now. Otherwise, click the button below to install the prerequisites and run the application.
 </TD></TR><TR><TD COLSPAN="2">&nbsp;</TD></TR></TABLE>
