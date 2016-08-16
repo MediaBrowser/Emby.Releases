@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MediaBrowser.Server.Installer.exe" version="3.0.1.74" publicKeyToken="0526f36dafbe11ea" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Images\Icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MediaBrowser.Server.Installer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="MediaBrowser.Server.Installer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MediaBrowser.InstallUtil.dll" size="61408">
+      <assemblyIdentity name="MediaBrowser.InstallUtil" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/i8VPU6IMR5F2nHnBnPQAz9AC5/pC44FOlRy/XqhtdQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MediaBrowser.Server.Installer.exe" size="100872">
+      <assemblyIdentity name="MediaBrowser.Server.Installer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HrAmHIYa30987bAVd7Ht/nFwiLALq2HTw0/PEDFh09E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ServiceStack.Text.dll" size="286720">
+      <assemblyIdentity name="ServiceStack.Text" version="4.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>wmxgeFKnzRby+sS8fut1MU6PtXhBrSyVMSpYgD2W9Co=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SharpCompress.dll" size="420864">
+      <assemblyIdentity name="SharpCompress" version="0.10.3.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>PDQThBeXTOIV5dG1vbt6vVeM53QgBz6p3j9GzOvkK1U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Images\Icon.ico" size="26694">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/sRopUy1ndWzCoZ5xxeRmx0peCvlogiTePZmtelalHc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="MediaBrowser.Server.Installer.exe.config" size="299">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BZbFtP7L24Vq3+pVNyEyvMumLtK7KSEgs9415hggqS4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Emby LLC, O=Emby LLC, STREET=17625 Harbor Walk Dr, L=Cornelius, S=North Carolina, PostalCode=28031, C=US" issuerKeyHash="299160ff8a4dfaebf9a66ab8cff9e64bbd49ce12" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>sgWWAdC7+zRY9/IsItG8ju9yByjnjrV2TuCQMcEBTYc=</DigestValue></Reference></SignedInfo><SignatureValue>qI5YTTQ/I9XunGx+0Qn/zWIs5MJHKEKSSqGiRc/b7yaWYtdWojcXh3gC/qsiOxgrgi43LlN1oZrUnOTax2vj9VwYplnU8twQNaHD6Fcb0v/MZj5dRW0pFlqA/kgCWjV+INFelxgLkhlvG22P5oL4aKUnYeTzsx2XLm0VTbT3mGttSDKlYAflSDDrXJ0L8De7ExZKh+oR3falcgvSFGPTO7UNmkVvw7Y+/YkzM03CZDohQTkzooLd2uAACtVPha5x6zTj++sowGPWOJCgpTqGlENmFOJcUeYqPIE47bBx2BmcWQe/ZdAEByjrcz/p/ZtkQUcYGRzE3h+vV3D+6yuqIA==</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>sGF8I4AAGutEUnHuF0VoaqB//f7nd2hK4moqr87lD8bnVU/3EanUq0HF2KR0U8/A8524TZtbUB7dk/wjrOtt4tDa+WHL5x+IjpTwScjKle42YMjevB4CWTwh8X1ch3KWVrMguDbs8DuoSMVDGN/JBFl1RDjxTZ6bqWHiQSJtT7SwMslLX+t+0NIW5gcLl9UyYpn4wuoeSz3VxuCD219A5Y5nmUrwqAv0RFUM82oB4CR4hmHUABYX4SmijIgON8MwSKuorn0n9LWVerlvjgfs1l94YdH5OVIa3oVRMNtPl1YAkNwnSUTF5l151tB/ee/h5XMCUMDHc/4V2qsNoY5//w==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="874d01c13190e04e76b58ee7280772ef8ebcd1222cf2f75834fbbbd0019605b2" Description="" Url=""><as:assemblyIdentity name="MediaBrowser.Server.Installer.exe" version="3.0.1.74" publicKeyToken="0526f36dafbe11ea" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Emby LLC, O=Emby LLC, STREET=17625 Harbor Walk Dr, L=Cornelius, S=North Carolina, PostalCode=28031, C=US</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>LwVJMFa7/UmZNWKOtnfX2PjaLFJ8A7/XJwl2GRRBy48=</DigestValue></Reference></SignedInfo><SignatureValue>j4psbu94pJdwsjPBXyhcKdP0B5D8PF6TkEaK8Uqh36bJqM8yhC8quFt6woUhvQsPzzZppxt+sRb9FQHKv8omrv+BPSzbj0glMTL1H0THZEPhO0q1AkGNU58EtTSUfFNKYQwqxSNTJzVrhkW+F3Hzlgyf469ehMo/9kE8oyzTVYzxANhdKzDYN+gGF4gXeCt1lEiRtHsVw7GhoIc0UkymLorSTIlo7l458kw8A5UML2XW7FGGvv7zZ4lXyH2F6Bl4SCpYFXnA+MBWA3N3RwG9i/z/c+/B8s9mDrjXVPqkLLkiHmBxjTNpk420A2Y59I9J7PmjDyhlRejuDDRa4B06ag==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>sGF8I4AAGutEUnHuF0VoaqB//f7nd2hK4moqr87lD8bnVU/3EanUq0HF2KR0U8/A8524TZtbUB7dk/wjrOtt4tDa+WHL5x+IjpTwScjKle42YMjevB4CWTwh8X1ch3KWVrMguDbs8DuoSMVDGN/JBFl1RDjxTZ6bqWHiQSJtT7SwMslLX+t+0NIW5gcLl9UyYpn4wuoeSz3VxuCD219A5Y5nmUrwqAv0RFUM82oB4CR4hmHUABYX4SmijIgON8MwSKuorn0n9LWVerlvjgfs1l94YdH5OVIa3oVRMNtPl1YAkNwnSUTF5l151tB/ee/h5XMCUMDHc/4V2qsNoY5//w==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIFRjCCBC6gAwIBAgIQHSB/hszyAVuKVj7g/Z+bDzANBgkqhkiG9w0BAQsFADB9MQswCQYDVQQGEwJHQjEbMBkGA1UECBMSR3JlYXRlciBNYW5jaGVzdGVyMRAwDgYDVQQHEwdTYWxmb3JkMRowGAYDVQQKExFDT01PRE8gQ0EgTGltaXRlZDEjMCEGA1UEAxMaQ09NT0RPIFJTQSBDb2RlIFNpZ25pbmcgQ0EwHhcNMTYwMTE1MDAwMDAwWhcNMTgwMTE0MjM1OTU5WjCBjzELMAkGA1UEBhMCVVMxDjAMBgNVBBEMBTI4MDMxMRcwFQYDVQQIDA5Ob3J0aCBDYXJvbGluYTESMBAGA1UEBwwJQ29ybmVsaXVzMR0wGwYDVQQJDBQxNzYyNSBIYXJib3IgV2FsayBEcjERMA8GA1UECgwIRW1ieSBMTEMxETAPBgNVBAMMCEVtYnkgTExDMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsGF8I4AAGutEUnHuF0VoaqB//f7nd2hK4moqr87lD8bnVU/3EanUq0HF2KR0U8/A8524TZtbUB7dk/wjrOtt4tDa+WHL5x+IjpTwScjKle42YMjevB4CWTwh8X1ch3KWVrMguDbs8DuoSMVDGN/JBFl1RDjxTZ6bqWHiQSJtT7SwMslLX+t+0NIW5gcLl9UyYpn4wuoeSz3VxuCD219A5Y5nmUrwqAv0RFUM82oB4CR4hmHUABYX4SmijIgON8MwSKuorn0n9LWVerlvjgfs1l94YdH5OVIa3oVRMNtPl1YAkNwnSUTF5l151tB/ee/h5XMCUMDHc/4V2qsNoY5//wIDAQABo4IBrTCCAakwHwYDVR0jBBgwFoAUKZFg/4pN+uv5pmq4z/nmS71JzhIwHQYDVR0OBBYEFDcwBOSg7ftY3Q7rpiMIaixPRGh5MA4GA1UdDwEB/wQEAwIHgDAMBgNVHRMBAf8EAjAAMBMGA1UdJQQMMAoGCCsGAQUFBwMDMBEGCWCGSAGG+EIBAQQEAwIEEDBGBgNVHSAEPzA9MDsGDCsGAQQBsjEBAgEDAjArMCkGCCsGAQUFBwIBFh1odHRwczovL3NlY3VyZS5jb21vZG8ubmV0L0NQUzBDBgNVHR8EPDA6MDigNqA0hjJodHRwOi8vY3JsLmNvbW9kb2NhLmNvbS9DT01PRE9SU0FDb2RlU2lnbmluZ0NBLmNybDB0BggrBgEFBQcBAQRoMGYwPgYIKwYBBQUHMAKGMmh0dHA6Ly9jcnQuY29tb2RvY2EuY29tL0NPTU9ET1JTQUNvZGVTaWduaW5nQ0EuY3J0MCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5jb21vZG9jYS5jb20wHgYDVR0RBBcwFYETYnVzaW5lc3NAZW1ieS5tZWRpYTANBgkqhkiG9w0BAQsFAAOCAQEAmopzpb4wMON0+7t+bcjsccrigY9c/nDx4gcFiR5PlyMdzt+897Lb2E1oV259lRL3/H7jaPIXXrlgHl/rQjloTaqzS52MlueUTpr5evEFfugk3V/nj453zXN817GoOycstLFrnzp15w4ywQPsWJsI9EgeamszoC7HaMbtGOnWeEjYXgLQUKDjeVJQ5fMP1gco7gED0+ijfMQxbWsmhcs+0mb96nUP9EqAVtmJ83pfGSEp6OaCLMHFdi86ojxwwmRB2yEeoEuMhGIClft7dtMO1wLc013Ok5TuM+vfUVIyCGh3cOrj9k52QFjMlZ78lSdvjtRjtZT94mThDamFpad6hw==</X509Certificate><X509Certificate>MIIF4DCCA8igAwIBAgIQLnyHzA6TSlL+lP0ct800rzANBgkqhkiG9w0BAQwFADCBhTELMAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4GA1UEBxMHU2FsZm9yZDEaMBgGA1UEChMRQ09NT0RPIENBIExpbWl0ZWQxKzApBgNVBAMTIkNPTU9ETyBSU0EgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMTMwNTA5MDAwMDAwWhcNMjgwNTA4MjM1OTU5WjB9MQswCQYDVQQGEwJHQjEbMBkGA1UECBMSR3JlYXRlciBNYW5jaGVzdGVyMRAwDgYDVQQHEwdTYWxmb3JkMRowGAYDVQQKExFDT01PRE8gQ0EgTGltaXRlZDEjMCEGA1UEAxMaQ09NT0RPIFJTQSBDb2RlIFNpZ25pbmcgQ0EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCmmJBjd5E0f4rR3elnMRHrzB79MR2zuWJXP5O8W+OfHiQyESdrvFGRp8+eniWzX4GoGA8dHiAwDvthe4YJs+P9omidHCydv3Lj5HWg5TUjjsmK7hoMZMfYQqF7tVIDSzqwjiNLS2PgIpQ3e9V5kAoUGFEs5v7BEvAcP2FhCoyi3PbDMKrNKBh1SMF5WgjNu4xVjPfUdpA6M0ZQc5hc9IVKaw+A3V7Wvf2pL8Al9fl4141fEMJEVTyQPDFGy3CuB6kK46/BAW+QGiPiXzjbxghdR7ODQfAuADcUuRKqeZJSzYcPe9hiKaR+ML0btYxytEjy4+gh+V5MYnmLAgaff9ULAgMBAAGjggFRMIIBTTAfBgNVHSMEGDAWgBS7r34CPfqm8TyEjq3uOJjs2TIy1DAdBgNVHQ4EFgQUKZFg/4pN+uv5pmq4z/nmS71JzhIwDgYDVR0PAQH/BAQDAgGGMBIGA1UdEwEB/wQIMAYBAf8CAQAwEwYDVR0lBAwwCgYIKwYBBQUHAwMwEQYDVR0gBAowCDAGBgRVHSAAMEwGA1UdHwRFMEMwQaA/oD2GO2h0dHA6Ly9jcmwuY29tb2RvY2EuY29tL0NPTU9ET1JTQUNlcnRpZmljYXRpb25BdXRob3JpdHkuY3JsMHEGCCsGAQUFBwEBBGUwYzA7BggrBgEFBQcwAoYvaHR0cDovL2NydC5jb21vZG9jYS5jb20vQ09NT0RPUlNBQWRkVHJ1c3RDQS5jcnQwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmNvbW9kb2NhLmNvbTANBgkqhkiG9w0BAQwFAAOCAgEAAj8COcPu+Mo7id4MbU2x8U6ST6/COCwEzMVjEasJY6+rotcCP8xvGcM91hoIlP8l2KmIpysQGuCbsQciGlEcOtTh6Qm/5iR0rx57FjFuI+9UUS1SAuJ1CAVM8bdR4VEAxof2bO4QRHZXavHfWGshqknUfDdOvf+2dVRAGDZXZxHNTwLk/vPa/HUX2+y392UJI0kfQ1eD6n4gd2HITfK7ZU2o94VFB696aSdlkClAi997OlE5jKgfcHmtbUIgos8MbAOMTM1zB5TnWo46BLqioXwfy2M6FafUFRunUkcyqfS/ZEfRqh9TTjIwc8Jvt3iCnVz/RrtrIh2IC/gbqjSm/Iz13X9ljIwxVzHQNuxHoc/Li6jvHBhYxQZ3ykubUa9MCEp6j+KjUuKOjswm5LLY5TjCqO3GgZw1a6lYYUoKl7RLQrZVnb6Z53BtWfhtKgx/GWBfDJqIbDCsUgmQFhv/K53b0CDKieoofjKOGd97SDMe12X4rsn4gxSTdn1k0I7OvjV9/3IxTZ+evR5sL6iPDAZQ+4wns3bJ9ObXwzTijIchhmH+v1V04SF3AwpobLvkyanmz1kl63zsRQ55ZmjoIs2475iFTZYRPAmK0H+8KCgT+2rKVI2SXM3CZZgGns5IW9S1N5NGQXwH3c/6Q++6Z2H/fUnguzB9XIDj5hY5S6c=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
