@@ -7,7 +7,7 @@ set -e
 if [ -n "$1" ]; then
   emby_version="$1"
 else
-  emby_version="3.2.33.19"
+  emby_version="3.2.33.20"
 fi
 
 atexit() {
