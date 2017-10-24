@@ -160,31 +160,11 @@ case $distro in
     echo "Installing the Dotnet Core repository to /etc/apt/sources.list.d/dotnet.list"
 
     case $version in
-      17)
+      17|17.1|17.2|17.3)
         ubuntu_trusty
         ;;
 
-      17.1)
-        ubuntu_trusty
-        ;;
-
-      17.2)
-        ubuntu_trusty
-        ;;
-
-      17.2)
-        ubuntu_trusty
-        ;;
-
-      18)
-        ubuntu_xenial
-        ;;
-
-      18.1)
-        ubuntu_xenial
-        ;;
-
-      18.2)
+      18|18.1|18.2)
         ubuntu_xenial
         ;;
 
@@ -249,11 +229,7 @@ case $distro in
     echo "Installing the Dotnet Core repository to /etc/yum.repos.d/dotnet.repo"
 
     case $version in
-      25)
-        sudo sh -c 'echo -e "[packages-microsoft-com-prod]\nname=packages-microsoft-com-prod\nbaseurl=https://packages.microsoft.com/yumrepos/microsoft-rhel7.3-prod\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/dotnet.repo'
-        ;;
-
-      26)
+      25|26)
         sudo sh -c 'echo -e "[packages-microsoft-com-prod]\nname=packages-microsoft-com-prod\nbaseurl=https://packages.microsoft.com/yumrepos/microsoft-rhel7.3-prod\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/dotnet.repo'
         ;;
 
@@ -272,6 +248,37 @@ case $distro in
     sudo firewall-cmd --reload
     ;;
 
+  opensuse)
+    echo
+    echo "Installing requirements"
+
+    sudo zypper install curl libicu libunwind
+
+    echo
+    echo "Importing Microsoft's GPG key"
+
+    sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+
+    echo
+    echo "Installing the Dotnet Core repository to /etc/zypp/repos.d/dotnet.repo"
+
+    case $version in
+      42.2|42.3|2017*|2018*)
+        sudo sh -c 'echo -e "[packages-microsoft-com-prod]\nname=packages-microsoft-com-prod\nbaseurl=https://packages.microsoft.com/yumrepos/microsoft-rhel7.3-prod\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/zypp/repos.d/dotnet.repo'
+        ;;
+
+      *)
+        echo
+        echo "ERROR: Unsupported $os version - $version" >&2
+        exit 1
+        ;;
+    esac
+
+    echo
+    echo "Installing Emby Server"
+
+    sudo zypper install https://github.com/MediaBrowser/Emby/releases/download/${emby_version}/emby-server-rpm-systemd_${emby_version}_x86_64.rpm
+    ;;
   *)
     echo
     echo "ERROR: Unsupported distro - $distro" >&2
