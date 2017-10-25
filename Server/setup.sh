@@ -32,6 +32,13 @@ if [ "$arch" != "x86_64" ]; then
   exit 1
 fi
 
+if [ -x "$(which systemctl)" ]; then
+      systemctl stop emby-server || true
+      systemctl disable emby-server || true
+    else
+      service emby-server stop || true
+fi
+
 case $distro in
   debian)
     echo
