@@ -19,30 +19,6 @@ atexit() {
 }
 trap atexit EXIT
 
-ubuntu_trusty() {
-  sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-ubuntu-trusty-prod trusty main" > /etc/apt/sources.list.d/dotnet.list'
-
-  echo
-  echo "Installing Emby Server"
-
-  sudo apt-get update
-  curl $options -L https://github.com/MediaBrowser/Emby/releases/download/${emby_version}/emby-server-deb-systemd_${emby_version}_amd64.deb -o emby-server-deb-systemd_${emby_version}_amd64.deb
-  sudo dpkg -i emby-server-deb-systemd_${emby_version}_amd64.deb || true
-  sudo apt-get -f install
-}
-
-ubuntu_xenial() {
-  sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-ubuntu-xenial-prod xenial main" > /etc/apt/sources.list.d/dotnet.list'
-
-  echo
-  echo "Installing Emby Server"
-
-  sudo apt-get update
-  curl $options -L https://github.com/MediaBrowser/Emby/releases/download/${emby_version}/emby-server-deb-systemd_${emby_version}_amd64.deb -o emby-server-deb-systemd_${emby_version}_amd64.deb
-  sudo dpkg -i emby-server-deb-systemd_${emby_version}_amd64.deb || true
-  sudo apt-get -f install
-}
-
 curl_options=""
 test -n "$INSECURE_SSL" && curl_options="--insecure"
 
@@ -93,8 +69,8 @@ case $distro in
     echo "Installing Emby Server"
 
     sudo apt-get update
-    curl $options -L https://github.com/MediaBrowser/Emby/releases/download/${emby_version}/emby-server-deb-systemd_${emby_version}_amd64.deb -o emby-server-deb-systemd_${emby_version}_amd64.deb
-    sudo dpkg -i emby-server-deb-systemd_${emby_version}_amd64.deb || true
+    curl $options -L https://github.com/MediaBrowser/Emby/releases/download/${emby_version}/emby-server-deb_${emby_version}_amd64.deb -o emby-server-deb_${emby_version}_amd64.deb
+    sudo dpkg -i emby-server-deb_${emby_version}_amd64.deb || true
     sudo apt-get -f install
     ;;
 
@@ -116,23 +92,19 @@ case $distro in
 
     case $version in
       14.04)
-        ubuntu_trusty
+        sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-ubuntu-trusty-prod trusty main" > /etc/apt/sources.list.d/dotnet.list'
         ;;
 
       16.04)
-        ubuntu_xenial
+        sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-ubuntu-xenial-prod xenial main" > /etc/apt/sources.list.d/dotnet.list'
         ;;
 
       17.04)
         sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-ubuntu-zesty-prod zesty main" > /etc/apt/sources.list.d/dotnet.list'
+        ;;
 
-        echo
-        echo "Installing Emby Server"
-
-        sudo apt-get update
-        curl $options -L https://github.com/MediaBrowser/Emby/releases/download/${emby_version}/emby-server-deb-systemd_${emby_version}_amd64.deb -o emby-server-deb-systemd_${emby_version}_amd64.deb
-        sudo dpkg -i emby-server-deb-systemd_${emby_version}_amd64.deb || true
-        sudo apt-get -f install
+      17.10)
+        sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-ubuntu-artful-prod artful main" > /etc/apt/sources.list.d/dotnet.list'
         ;;
 
       *)
@@ -141,6 +113,14 @@ case $distro in
         exit 1
         ;;
     esac
+
+    echo
+    echo "Installing Emby Server"
+
+    sudo apt-get update
+    curl $options -L https://github.com/MediaBrowser/Emby/releases/download/${emby_version}/emby-server-deb_${emby_version}_amd64.deb -o emby-server-deb_${emby_version}_amd64.deb
+    sudo dpkg -i emby-server-deb_${emby_version}_amd64.deb || true
+    sudo apt-get -f install
     ;;
 
   linuxmint)
@@ -161,11 +141,11 @@ case $distro in
 
     case $version in
       17|17.1|17.2|17.3)
-        ubuntu_trusty
+        sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-ubuntu-trusty-prod trusty main" > /etc/apt/sources.list.d/dotnet.list'
         ;;
 
       18|18.1|18.2)
-        ubuntu_xenial
+        sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsoft-ubuntu-xenial-prod xenial main" > /etc/apt/sources.list.d/dotnet.list'
         ;;
 
       *)
@@ -205,7 +185,7 @@ case $distro in
     echo
     echo "Installing Emby Server"
 
-    sudo yum install https://github.com/MediaBrowser/Emby/releases/download/${emby_version}/emby-server-rpm-systemd_${emby_version}_x86_64.rpm
+    sudo yum install https://github.com/MediaBrowser/Emby/releases/download/${emby_version}/emby-server-rpm_${emby_version}_x86_64.rpm
     sudo firewall-cmd --permanent --add-service=emby-server
     sudo firewall-cmd --reload
     ;;
@@ -243,7 +223,7 @@ case $distro in
     echo
     echo "Installing Emby Server"
 
-    sudo dnf install https://github.com/MediaBrowser/Emby/releases/download/${emby_version}/emby-server-rpm-systemd_${emby_version}_x86_64.rpm
+    sudo dnf install https://github.com/MediaBrowser/Emby/releases/download/${emby_version}/emby-server-rpm_${emby_version}_x86_64.rpm
     sudo firewall-cmd --permanent --add-service=emby-server
     sudo firewall-cmd --reload
     ;;
@@ -277,7 +257,7 @@ case $distro in
     echo
     echo "Installing Emby Server"
 
-    sudo zypper install https://github.com/MediaBrowser/Emby/releases/download/${emby_version}/emby-server-rpm-systemd_${emby_version}_x86_64.rpm
+    sudo zypper install https://github.com/MediaBrowser/Emby/releases/download/${emby_version}/emby-server-rpm_${emby_version}_x86_64.rpm
     ;;
   *)
     echo
