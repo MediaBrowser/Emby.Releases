@@ -1,4 +1,4 @@
-Plugin
+# Emby.DiagnosticsPlugin
 
 The Diagnostics Plugin for Emby Server exposes a number of settings that allow us to better analyze problems and pinpoint errors.
 
