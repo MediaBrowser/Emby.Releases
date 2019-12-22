@@ -19,7 +19,7 @@ The minimum required version of Emby Server is 4.4.0.3
 
 The plugin is currently not available from the plugin catalog and needs to be installed manually.
 
-- Please download the plugin from HERE.
+- Please download the plugin from [HERE](https://github.com/softworkz/Emby.Releases/blob/diagplugin/Emby.DiagnosticsPlugin/Emby.DiagnosticsPlugin.dll.zip).
 - Extract the zip file
 - Put Emby.DiagnosticsPlugin.dll into the "plugins" subfolder of your Emby installation
 - Restart Emby
