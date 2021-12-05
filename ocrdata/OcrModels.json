@@ -1,0 +1,669 @@
+{
+  "OcrModels": [
+    {
+      "Code": "afr",
+      "Language": "Afrikaans",
+      "FileName": "afr.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/afr.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/afr.traineddata"
+    },
+    {
+      "Code": "sqi",
+      "Language": "Albanian",
+      "FileName": "sqi.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/sqi.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/sqi.traineddata"
+    },
+    {
+      "Code": "amh",
+      "Language": "Amharic",
+      "FileName": "amh.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/amh.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/amh.traineddata"
+    },
+    {
+      "Code": "ara",
+      "Language": "Arabic",
+      "FileName": "ara.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/ara.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/ara.traineddata"
+    },
+    {
+      "Code": "asm",
+      "Language": "Assamese",
+      "FileName": "asm.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/asm.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/asm.traineddata"
+    },
+    {
+      "Code": "aze",
+      "Language": "Azerbaijani",
+      "FileName": "aze.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/aze.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/aze.traineddata"
+    },
+    {
+      "Code": "aze_cyrl",
+      "Language": "Azerbaijani - Cyrillic",
+      "FileName": "aze_cyrl.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/aze_cyrl.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/aze_cyrl.traineddata"
+    },
+    {
+      "Code": "eus",
+      "Language": "Basque",
+      "FileName": "eus.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/eus.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/eus.traineddata"
+    },
+    {
+      "Code": "bel",
+      "Language": "Belarusian",
+      "FileName": "bel.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/bel.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/bel.traineddata"
+    },
+    {
+      "Code": "ben",
+      "Language": "Bengali",
+      "FileName": "ben.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/ben.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/ben.traineddata"
+    },
+    {
+      "Code": "bos",
+      "Language": "Bosnian",
+      "FileName": "bos.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/bos.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/bos.traineddata"
+    },
+    {
+      "Code": "bul",
+      "Language": "Bulgarian",
+      "FileName": "bul.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/bul.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/bul.traineddata"
+    },
+    {
+      "Code": "mya",
+      "Language": "Burmese",
+      "FileName": "mya.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/mya.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/mya.traineddata"
+    },
+    {
+      "Code": "cat",
+      "Language": "Catalan",
+      "FileName": "cat.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/cat.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/cat.traineddata"
+    },
+    {
+      "Code": "ceb",
+      "Language": "Cebuano",
+      "FileName": "ceb.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/ceb.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/ceb.traineddata"
+    },
+    {
+      "Code": "khm",
+      "Language": "Central Khmer",
+      "FileName": "khm.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/khm.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/khm.traineddata"
+    },
+    {
+      "Code": "chr",
+      "Language": "Cherokee",
+      "FileName": "chr.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/chr.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/chr.traineddata"
+    },
+    {
+      "Code": "chi_sim",
+      "Language": "Chinese - Simplified",
+      "FileName": "chi_sim.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/chi_sim.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/chi_sim.traineddata"
+    },
+    {
+      "Code": "chi_tra",
+      "Language": "Chinese - Traditional",
+      "FileName": "chi_tra.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/chi_tra.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/chi_tra.traineddata"
+    },
+    {
+      "Code": "hrv",
+      "Language": "Croatian",
+      "FileName": "hrv.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/hrv.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/hrv.traineddata"
+    },
+    {
+      "Code": "ces",
+      "Language": "Czech",
+      "FileName": "ces.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/ces.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/ces.traineddata"
+    },
+    {
+      "Code": "dan",
+      "Language": "Danish",
+      "FileName": "dan.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/dan.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/dan.traineddata"
+    },
+    {
+      "Code": "nld",
+      "Language": "Dutch; Flemish",
+      "FileName": "nld.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/nld.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/nld.traineddata"
+    },
+    {
+      "Code": "dzo",
+      "Language": "Dzongkha",
+      "FileName": "dzo.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/dzo.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/dzo.traineddata"
+    },
+    {
+      "Code": "eng",
+      "Language": "English",
+      "FileName": "eng.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/eng.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/eng.traineddata"
+    },
+    {
+      "Code": "epo",
+      "Language": "Esperanto",
+      "FileName": "epo.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/epo.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/epo.traineddata"
+    },
+    {
+      "Code": "est",
+      "Language": "Estonian",
+      "FileName": "est.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/est.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/est.traineddata"
+    },
+    {
+      "Code": "fin",
+      "Language": "Finnish",
+      "FileName": "fin.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/fin.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/fin.traineddata"
+    },
+    {
+      "Code": "fra",
+      "Language": "French",
+      "FileName": "fra.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/fra.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/fra.traineddata"
+    },
+    {
+      "Code": "glg",
+      "Language": "Galician",
+      "FileName": "glg.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/glg.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/glg.traineddata"
+    },
+    {
+      "Code": "kat",
+      "Language": "Georgian",
+      "FileName": "kat.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/kat.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/kat.traineddata"
+    },
+    {
+      "Code": "deu",
+      "Language": "German",
+      "FileName": "deu.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/deu.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/deu.traineddata"
+    },
+    {
+      "Code": "ell",
+      "Language": "Greek",
+      "FileName": "ell.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/ell.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/ell.traineddata"
+    },
+    {
+      "Code": "guj",
+      "Language": "Gujarati",
+      "FileName": "guj.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/guj.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/guj.traineddata"
+    },
+    {
+      "Code": "hat",
+      "Language": "Haitian",
+      "FileName": "hat.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/hat.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/hat.traineddata"
+    },
+    {
+      "Code": "heb",
+      "Language": "Hebrew",
+      "FileName": "heb.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/heb.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/heb.traineddata"
+    },
+    {
+      "Code": "hin",
+      "Language": "Hindi",
+      "FileName": "hin.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/hin.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/hin.traineddata"
+    },
+    {
+      "Code": "hun",
+      "Language": "Hungarian",
+      "FileName": "hun.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/hun.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/hun.traineddata"
+    },
+    {
+      "Code": "isl",
+      "Language": "Icelandic",
+      "FileName": "isl.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/isl.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/isl.traineddata"
+    },
+    {
+      "Code": "ind",
+      "Language": "Indonesian",
+      "FileName": "ind.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/ind.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/ind.traineddata"
+    },
+    {
+      "Code": "iku",
+      "Language": "Inuktitut",
+      "FileName": "iku.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/iku.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/iku.traineddata"
+    },
+    {
+      "Code": "gle",
+      "Language": "Irish",
+      "FileName": "gle.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/gle.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/gle.traineddata"
+    },
+    {
+      "Code": "ita",
+      "Language": "Italian",
+      "FileName": "ita.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/ita.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/ita.traineddata"
+    },
+    {
+      "Code": "jpn",
+      "Language": "Japanese",
+      "FileName": "jpn.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/jpn.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/jpn.traineddata"
+    },
+    {
+      "Code": "jav",
+      "Language": "Javanese",
+      "FileName": "jav.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/jav.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/jav.traineddata"
+    },
+    {
+      "Code": "kan",
+      "Language": "Kannada",
+      "FileName": "kan.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/kan.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/kan.traineddata"
+    },
+    {
+      "Code": "kaz",
+      "Language": "Kazakh",
+      "FileName": "kaz.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/kaz.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/kaz.traineddata"
+    },
+    {
+      "Code": "kir",
+      "Language": "Kirghiz; Kyrgyz",
+      "FileName": "kir.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/kir.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/kir.traineddata"
+    },
+    {
+      "Code": "kor",
+      "Language": "Korean",
+      "FileName": "kor.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/kor.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/kor.traineddata"
+    },
+    {
+      "Code": "kur",
+      "Language": "Kurdish",
+      "FileName": "kur.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/kur.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/kur.traineddata"
+    },
+    {
+      "Code": "lao",
+      "Language": "Lao",
+      "FileName": "lao.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/lao.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/lao.traineddata"
+    },
+    {
+      "Code": "lat",
+      "Language": "Latin",
+      "FileName": "lat.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/lat.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/lat.traineddata"
+    },
+    {
+      "Code": "lav",
+      "Language": "Latvian",
+      "FileName": "lav.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/lav.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/lav.traineddata"
+    },
+    {
+      "Code": "lit",
+      "Language": "Lithuanian",
+      "FileName": "lit.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/lit.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/lit.traineddata"
+    },
+    {
+      "Code": "mkd",
+      "Language": "Macedonian",
+      "FileName": "mkd.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/mkd.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/mkd.traineddata"
+    },
+    {
+      "Code": "msa",
+      "Language": "Malay",
+      "FileName": "msa.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/msa.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/msa.traineddata"
+    },
+    {
+      "Code": "mal",
+      "Language": "Malayalam",
+      "FileName": "mal.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/mal.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/mal.traineddata"
+    },
+    {
+      "Code": "mlt",
+      "Language": "Maltese",
+      "FileName": "mlt.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/mlt.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/mlt.traineddata"
+    },
+    {
+      "Code": "mar",
+      "Language": "Marathi",
+      "FileName": "mar.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/mar.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/mar.traineddata"
+    },
+    {
+      "Code": "nep",
+      "Language": "Nepali",
+      "FileName": "nep.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/nep.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/nep.traineddata"
+    },
+    {
+      "Code": "nor",
+      "Language": "Norwegian",
+      "FileName": "nor.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/nor.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/nor.traineddata"
+    },
+    {
+      "Code": "ori",
+      "Language": "Oriya",
+      "FileName": "ori.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/ori.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/ori.traineddata"
+    },
+    {
+      "Code": "pan",
+      "Language": "Panjabi; Punjabi",
+      "FileName": "pan.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/pan.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/pan.traineddata"
+    },
+    {
+      "Code": "fas",
+      "Language": "Persian",
+      "FileName": "fas.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/fas.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/fas.traineddata"
+    },
+    {
+      "Code": "pol",
+      "Language": "Polish",
+      "FileName": "pol.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/pol.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/pol.traineddata"
+    },
+    {
+      "Code": "por",
+      "Language": "Portuguese",
+      "FileName": "por.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/por.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/por.traineddata"
+    },
+    {
+      "Code": "pus",
+      "Language": "Pushto; Pashto",
+      "FileName": "pus.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/pus.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/pus.traineddata"
+    },
+    {
+      "Code": "ron",
+      "Language": "Romanian; Moldavian; Moldovan",
+      "FileName": "ron.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/ron.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/ron.traineddata"
+    },
+    {
+      "Code": "rus",
+      "Language": "Russian",
+      "FileName": "rus.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/rus.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/rus.traineddata"
+    },
+    {
+      "Code": "san",
+      "Language": "Sanskrit",
+      "FileName": "san.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/san.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/san.traineddata"
+    },
+    {
+      "Code": "srp",
+      "Language": "Serbian",
+      "FileName": "srp.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/srp.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/srp.traineddata"
+    },
+    {
+      "Code": "srp_latn",
+      "Language": "Serbian - Latin",
+      "FileName": "srp_latn.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/srp_latn.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/srp_latn.traineddata"
+    },
+    {
+      "Code": "sin",
+      "Language": "Sinhala; Sinhalese",
+      "FileName": "sin.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/sin.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/sin.traineddata"
+    },
+    {
+      "Code": "slk",
+      "Language": "Slovak",
+      "FileName": "slk.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/slk.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/slk.traineddata"
+    },
+    {
+      "Code": "slv",
+      "Language": "Slovenian",
+      "FileName": "slv.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/slv.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/slv.traineddata"
+    },
+    {
+      "Code": "spa",
+      "Language": "Spanish; Castilian",
+      "FileName": "spa.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/spa.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/spa.traineddata"
+    },
+    {
+      "Code": "swa",
+      "Language": "Swahili",
+      "FileName": "swa.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/swa.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/swa.traineddata"
+    },
+    {
+      "Code": "swe",
+      "Language": "Swedish",
+      "FileName": "swe.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/swe.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/swe.traineddata"
+    },
+    {
+      "Code": "syr",
+      "Language": "Syriac",
+      "FileName": "syr.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/syr.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/syr.traineddata"
+    },
+    {
+      "Code": "tgl",
+      "Language": "Tagalog",
+      "FileName": "tgl.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/tgl.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/tgl.traineddata"
+    },
+    {
+      "Code": "tgk",
+      "Language": "Tajik",
+      "FileName": "tgk.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/tgk.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/tgk.traineddata"
+    },
+    {
+      "Code": "tam",
+      "Language": "Tamil",
+      "FileName": "tam.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/tam.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/tam.traineddata"
+    },
+    {
+      "Code": "tel",
+      "Language": "Telugu",
+      "FileName": "tel.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/tel.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/tel.traineddata"
+    },
+    {
+      "Code": "tha",
+      "Language": "Thai",
+      "FileName": "tha.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/tha.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/tha.traineddata"
+    },
+    {
+      "Code": "bod",
+      "Language": "Tibetan",
+      "FileName": "bod.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/bod.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/bod.traineddata"
+    },
+    {
+      "Code": "tir",
+      "Language": "Tigrinya",
+      "FileName": "tir.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/tir.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/tir.traineddata"
+    },
+    {
+      "Code": "tur",
+      "Language": "Turkish",
+      "FileName": "tur.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/tur.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/tur.traineddata"
+    },
+    {
+      "Code": "uig",
+      "Language": "Uighur; Uyghur",
+      "FileName": "uig.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/uig.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/uig.traineddata"
+    },
+    {
+      "Code": "ukr",
+      "Language": "Ukrainian",
+      "FileName": "ukr.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/ukr.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/ukr.traineddata"
+    },
+    {
+      "Code": "urd",
+      "Language": "Urdu",
+      "FileName": "urd.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/urd.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/urd.traineddata"
+    },
+    {
+      "Code": "uzb",
+      "Language": "Uzbek",
+      "FileName": "uzb.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/uzb.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/uzb.traineddata"
+    },
+    {
+      "Code": "uzb_cyrl",
+      "Language": "Uzbek - Cyrillic",
+      "FileName": "uzb_cyrl.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/uzb_cyrl.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/uzb_cyrl.traineddata"
+    },
+    {
+      "Code": "vie",
+      "Language": "Vietnamese",
+      "FileName": "vie.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/vie.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/vie.traineddata"
+    },
+    {
+      "Code": "cym",
+      "Language": "Welsh",
+      "FileName": "cym.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/cym.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/cym.traineddata"
+    },
+    {
+      "Code": "yid",
+      "Language": "Yiddish",
+      "FileName": "yid.traineddata",
+      "Url": "https://github.com/MediaBrowser/Emby.Releases/raw/master/ocrdata/yid.traineddata",
+      "AlternateUrl": "https://github.com/tesseract-ocr/tessdata/raw/4.00/yid.traineddata"
+    }
+  ]
+}
